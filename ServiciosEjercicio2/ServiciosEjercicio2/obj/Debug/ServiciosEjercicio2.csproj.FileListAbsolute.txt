@@ -1,0 +1,10 @@
+C:\Users\OscarFari\source\repos\ServiciosEjercicio2\ServiciosEjercicio2\bin\Debug\ServiciosEjercicio2.exe.config
+C:\Users\OscarFari\source\repos\ServiciosEjercicio2\ServiciosEjercicio2\bin\Debug\ServiciosEjercicio2.exe
+C:\Users\OscarFari\source\repos\ServiciosEjercicio2\ServiciosEjercicio2\bin\Debug\ServiciosEjercicio2.pdb
+C:\Users\OscarFari\source\repos\ServiciosEjercicio2\ServiciosEjercicio2\obj\Debug\ServiciosEjercicio2.csproj.AssemblyReference.cache
+C:\Users\OscarFari\source\repos\ServiciosEjercicio2\ServiciosEjercicio2\obj\Debug\ServiciosEjercicio2.Form1.resources
+C:\Users\OscarFari\source\repos\ServiciosEjercicio2\ServiciosEjercicio2\obj\Debug\ServiciosEjercicio2.Properties.Resources.resources
+C:\Users\OscarFari\source\repos\ServiciosEjercicio2\ServiciosEjercicio2\obj\Debug\ServiciosEjercicio2.csproj.GenerateResource.cache
+C:\Users\OscarFari\source\repos\ServiciosEjercicio2\ServiciosEjercicio2\obj\Debug\ServiciosEjercicio2.csproj.CoreCompileInputs.cache
+C:\Users\OscarFari\source\repos\ServiciosEjercicio2\ServiciosEjercicio2\obj\Debug\ServiciosEjercicio2.exe
+C:\Users\OscarFari\source\repos\ServiciosEjercicio2\ServiciosEjercicio2\obj\Debug\ServiciosEjercicio2.pdb
