@@ -40,9 +40,9 @@ namespace ArchivosEjercicio1
             this.label1 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.LetsTryTogether = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // DirectoriBtn
@@ -131,13 +131,6 @@ namespace ArchivosEjercicio1
             this.label4.TabIndex = 10;
             this.label4.Text = "Ficheros";
             // 
-            // LetsTryTogether
-            // 
-            this.LetsTryTogether.Location = new System.Drawing.Point(661, 146);
-            this.LetsTryTogether.Name = "LetsTryTogether";
-            this.LetsTryTogether.Size = new System.Drawing.Size(100, 20);
-            this.LetsTryTogether.TabIndex = 11;
-            // 
             // label5
             // 
             this.label5.AutoSize = true;
@@ -156,15 +149,25 @@ namespace ArchivosEjercicio1
             this.label6.TabIndex = 13;
             this.label6.Text = "label6";
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(629, 222);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 20);
+            this.button1.TabIndex = 14;
+            this.button1.Text = "Silksong";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Form1
             // 
             this.AcceptButton = this.DirectoriBtn;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.LetsTryTogether);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label1);
@@ -177,7 +180,7 @@ namespace ArchivosEjercicio1
             this.Controls.Add(this.DirectoriBtn);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Ejercicio 1";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -195,9 +198,9 @@ namespace ArchivosEjercicio1
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox LetsTryTogether;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Button button1;
     }
 }
 

@@ -17,29 +17,29 @@ namespace ArchivosEjercicio1
     {
         FileInfo SelectedFileInfo;
         public string contenidoTxt = "";
+        bool clear = true;
         public Form1()
         {
             InitializeComponent();
         }
 
-        public void vaciadoDeLabelsInformativos()
+        public void Clearcion(bool clearMetod)
         {
-            ErrorDirLabel.Text = "";
-            errorFileLabel.Text = "";
+            if (clearMetod)
+            {
+                listBoxFile.Items.Clear();
+                ListBoxSubDir.Items.Clear();
+            }
         }
+
         public void RellenaListBox(string subdirectory)
         {
             try
             {
-                ListBoxSubDir.Items.Clear();
-                listBoxFile.Items.Clear();
-                vaciadoDeLabelsInformativos();
+                Clearcion(this.clear);
                 DirectoryInfo info;
                 string entorno = Environment.ExpandEnvironmentVariables(subdirectory);
-                if (Directory.Exists(subdirectory) || Directory.Exists(entorno))
-                {
-                    Directory.SetCurrentDirectory(entorno);
-                }
+                Directory.SetCurrentDirectory(entorno);
                 info = new DirectoryInfo(Directory.GetCurrentDirectory());
                 ListBoxSubDir.Items.Add("..");
                 foreach (DirectoryInfo dirs in info.GetDirectories())
@@ -51,39 +51,51 @@ namespace ArchivosEjercicio1
                     listBoxFile.Items.Add(files);
                 }
                 label6.Text = info.FullName;
+                this.clear = true;
             }
             catch (UnauthorizedAccessException unautex)
             {
-                ErrorDirLabel.Text = "Acceso NO disponible";
+                MessageBox.Show("Acceso NO disponible :'c", "Sorry dude");
+                this.clear = false;
             }
             catch (FileNotFoundException filex)
             {
-                errorFileLabel.Text = $"The file was not found: {filex}";
+                MessageBox.Show("Fichero No encontrado mira si escribiste bien la ruta ;3", "Sorry dude");
+                this.clear = false;
             }
             catch (DirectoryNotFoundException direx)
             {
-                ErrorDirLabel.Text = $"The directory was not found: {direx}";
+                MessageBox.Show("Directorio No encontrado mira si escribiste bien la ruta ;3", "Sorry dude");
+                this.clear = false;
+            }
+            catch (ArgumentException argex)
+            {
+                MessageBox.Show("Necesitas tener algo escrito", "Sorry dude");
+                this.clear = false;
             }
         }
         public void KiloMegaGiga(FileInfo file)
         {
-            if (file.Length / 1024 < 1024)
+            if (file.Length < 1024)
             {
-                label2.Text = $"Name: {file.Name}  Size: {file.Length / 1024} KB";
+                label2.Text = $"Name: {file.Name}  Size: {((float)file.Length):F2} Bytes";
+            }
+            else if (file.Length / 1024 < 1024)
+            {
+                label2.Text = $"Name: {file.Name}  Size: {((float)file.Length / 1024):F2} KB";
             }
             else if (((file.Length / 1024) / 1024) < 1024)
             {
-                label2.Text = $"Name: {file.Name}  Size: {(file.Length / 1024) / 1024} MB";
+                label2.Text = $"Name: {file.Name}  Size: {((float)((file.Length / 1024) / 1024)):F2} MB";
             }
             else
             {
-                label2.Text = $"Name: {file.Name}  Size: {((file.Length / 1024) / 1024) / 1024} GB";
+                label2.Text = $"Name: {file.Name}  Size: {((float)(((file.Length / 1024) / 1024) / 1024)):F2} GB";
             }
         }
 
         public void TXTIchooseYou(FileInfo file)
         {
-            vaciadoDeLabelsInformativos();
             DialogResult dialogResult;
             if (file.Name.EndsWith(".txt"))
             {
@@ -92,57 +104,62 @@ namespace ArchivosEjercicio1
                     using (StreamReader reader = new StreamReader(file.Name))
                     {
                         contenidoTxt = reader.ReadToEnd();
+                        reader.Close();
                     }
-                    LetsTryTogether.Text = contenidoTxt.ToString();
-                    Form2 form2 = new Form2(contenidoTxt);
+                    //LetsTryTogether.Text = contenidoTxt.ToString();
+                    Form2 form2 = new Form2(contenidoTxt, file);
                     dialogResult = form2.ShowDialog();
                 }
                 catch (FileNotFoundException filex)
                 {
-                    errorFileLabel.Text = $"The file was not found: {filex}";
+                    //errorFileLabel.Text = $"The file was not found: {filex}";
+                    MessageBox.Show("Fichero No encontrado", "Sorry dude");
                 }
-                catch(DirectoryNotFoundException direx)
+                catch (DirectoryNotFoundException direx)
                 {
-                    ErrorDirLabel.Text = $"The directory was not found: {direx}";
+                    // ErrorDirLabel.Text = $"The directory was not found: {direx}";
+                    MessageBox.Show("Directorio No encontrado", "Sorry dude");
                 }
-                catch(IOException ioex)
+                catch (IOException ioex)
                 {
-                    errorFileLabel.Text = $"The file couldn´t be opened: {ioex}";
+                    // errorFileLabel.Text = $"The file couldn´t be opened: {ioex}";
+                    MessageBox.Show("El fichero no se pudo abrir :c", "Sorry dude");
                 }
-                //errorFileLabel.Text = "hago algo no te preocupes";
             }
         }
         private void DirectoriBtn_Click(object sender, EventArgs e)
         {
-            vaciadoDeLabelsInformativos();
             RellenaListBox(textBoxDir.Text.ToString());
         }
 
         private void ListBoxSubDir_SelectedValueChanged(object sender, EventArgs e)
         {
-            vaciadoDeLabelsInformativos();
             if (ListBoxSubDir.SelectedItem != null)
             {
                 RellenaListBox(ListBoxSubDir.SelectedItem.ToString());
-            }
-            else
-            {
-                ErrorDirLabel.Text = "Error Error Error";
             }
         }
 
         private void listBoxFile_SelectedValueChanged(object sender, EventArgs e)
         {
-            vaciadoDeLabelsInformativos();
             if (listBoxFile.SelectedItem != null)
             {
                 SelectedFileInfo = (FileInfo)listBoxFile.SelectedItem;
                 KiloMegaGiga(SelectedFileInfo);
                 TXTIchooseYou(SelectedFileInfo);
             }
-            else
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            FileInfo file = new FileInfo("C:\\DirectorioPadre\\Directorio2\\Txt3.txt");
+            using (StreamWriter sw = new StreamWriter(file.FullName))
             {
-                errorFileLabel.Text = "Error Error Error";
+                do
+                {
+                    sw.Write("\nsilksong release date is in Febrero\nSorry Alvaro pero es la verdad");
+                } while (((file.Length/1024)/1024) < 3);
+                sw.Close();
             }
         }
     }
