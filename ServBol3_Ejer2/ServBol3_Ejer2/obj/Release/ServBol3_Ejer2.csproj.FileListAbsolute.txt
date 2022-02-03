@@ -1,0 +1,10 @@
+C:\Users\OscarFari\source\repos\ServBol3_Ejer2\ServBol3_Ejer2\bin\Release\ServBol3_Ejer2.exe.config
+C:\Users\OscarFari\source\repos\ServBol3_Ejer2\ServBol3_Ejer2\bin\Release\ServBol3_Ejer2.exe
+C:\Users\OscarFari\source\repos\ServBol3_Ejer2\ServBol3_Ejer2\bin\Release\ServBol3_Ejer2.pdb
+C:\Users\OscarFari\source\repos\ServBol3_Ejer2\ServBol3_Ejer2\obj\Release\ServBol3_Ejer2.csproj.AssemblyReference.cache
+C:\Users\OscarFari\source\repos\ServBol3_Ejer2\ServBol3_Ejer2\obj\Release\ServBol3_Ejer2.Form1.resources
+C:\Users\OscarFari\source\repos\ServBol3_Ejer2\ServBol3_Ejer2\obj\Release\ServBol3_Ejer2.Properties.Resources.resources
+C:\Users\OscarFari\source\repos\ServBol3_Ejer2\ServBol3_Ejer2\obj\Release\ServBol3_Ejer2.csproj.GenerateResource.cache
+C:\Users\OscarFari\source\repos\ServBol3_Ejer2\ServBol3_Ejer2\obj\Release\ServBol3_Ejer2.csproj.CoreCompileInputs.cache
+C:\Users\OscarFari\source\repos\ServBol3_Ejer2\ServBol3_Ejer2\obj\Release\ServBol3_Ejer2.exe
+C:\Users\OscarFari\source\repos\ServBol3_Ejer2\ServBol3_Ejer2\obj\Release\ServBol3_Ejer2.pdb
