@@ -1,0 +1,11 @@
+C:\Users\OscarFari\source\repos\ServBol3_Ejer1\ServBol3_Ejer1Cliente\bin\Debug\ServBol3_Ejer1Cliente.exe.config
+C:\Users\OscarFari\source\repos\ServBol3_Ejer1\ServBol3_Ejer1Cliente\bin\Debug\ServBol3_Ejer1Cliente.exe
+C:\Users\OscarFari\source\repos\ServBol3_Ejer1\ServBol3_Ejer1Cliente\bin\Debug\ServBol3_Ejer1Cliente.pdb
+C:\Users\OscarFari\source\repos\ServBol3_Ejer1\ServBol3_Ejer1Cliente\obj\Debug\ServBol3_Ejer1Cliente.csproj.AssemblyReference.cache
+C:\Users\OscarFari\source\repos\ServBol3_Ejer1\ServBol3_Ejer1Cliente\obj\Debug\ServBol3_Ejer1Cliente.Form1.resources
+C:\Users\OscarFari\source\repos\ServBol3_Ejer1\ServBol3_Ejer1Cliente\obj\Debug\ServBol3_Ejer1Cliente.Form2.resources
+C:\Users\OscarFari\source\repos\ServBol3_Ejer1\ServBol3_Ejer1Cliente\obj\Debug\ServBol3_Ejer1Cliente.Properties.Resources.resources
+C:\Users\OscarFari\source\repos\ServBol3_Ejer1\ServBol3_Ejer1Cliente\obj\Debug\ServBol3_Ejer1Cliente.csproj.GenerateResource.cache
+C:\Users\OscarFari\source\repos\ServBol3_Ejer1\ServBol3_Ejer1Cliente\obj\Debug\ServBol3_Ejer1Cliente.csproj.CoreCompileInputs.cache
+C:\Users\OscarFari\source\repos\ServBol3_Ejer1\ServBol3_Ejer1Cliente\obj\Debug\ServBol3_Ejer1Cliente.exe
+C:\Users\OscarFari\source\repos\ServBol3_Ejer1\ServBol3_Ejer1Cliente\obj\Debug\ServBol3_Ejer1Cliente.pdb

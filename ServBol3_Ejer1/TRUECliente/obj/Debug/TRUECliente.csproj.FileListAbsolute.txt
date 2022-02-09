@@ -1,0 +1,10 @@
+C:\Users\OscarFari\source\repos\ServBol3_Ejer1\TRUECliente\bin\Debug\TRUECliente.exe.config
+C:\Users\OscarFari\source\repos\ServBol3_Ejer1\TRUECliente\bin\Debug\TRUECliente.exe
+C:\Users\OscarFari\source\repos\ServBol3_Ejer1\TRUECliente\bin\Debug\TRUECliente.pdb
+C:\Users\OscarFari\source\repos\ServBol3_Ejer1\TRUECliente\obj\Debug\TRUECliente.Form1.resources
+C:\Users\OscarFari\source\repos\ServBol3_Ejer1\TRUECliente\obj\Debug\TRUECliente.Form2.resources
+C:\Users\OscarFari\source\repos\ServBol3_Ejer1\TRUECliente\obj\Debug\TRUECliente.Properties.Resources.resources
+C:\Users\OscarFari\source\repos\ServBol3_Ejer1\TRUECliente\obj\Debug\TRUECliente.csproj.GenerateResource.cache
+C:\Users\OscarFari\source\repos\ServBol3_Ejer1\TRUECliente\obj\Debug\TRUECliente.csproj.CoreCompileInputs.cache
+C:\Users\OscarFari\source\repos\ServBol3_Ejer1\TRUECliente\obj\Debug\TRUECliente.exe
+C:\Users\OscarFari\source\repos\ServBol3_Ejer1\TRUECliente\obj\Debug\TRUECliente.pdb
