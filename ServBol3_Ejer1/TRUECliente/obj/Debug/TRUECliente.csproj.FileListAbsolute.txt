@@ -8,3 +8,4 @@ C:\Users\OscarFari\source\repos\ServBol3_Ejer1\TRUECliente\obj\Debug\TRUECliente
 C:\Users\OscarFari\source\repos\ServBol3_Ejer1\TRUECliente\obj\Debug\TRUECliente.csproj.CoreCompileInputs.cache
 C:\Users\OscarFari\source\repos\ServBol3_Ejer1\TRUECliente\obj\Debug\TRUECliente.exe
 C:\Users\OscarFari\source\repos\ServBol3_Ejer1\TRUECliente\obj\Debug\TRUECliente.pdb
+C:\Users\OscarFari\source\repos\ServBol3_Ejer1\TRUECliente\obj\Debug\TRUECliente.csproj.AssemblyReference.cache

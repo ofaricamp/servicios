@@ -86,7 +86,7 @@ namespace TRUECliente
             this.AcceptButton = this.Serverbtn;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(133, 138);
+            this.ClientSize = new System.Drawing.Size(181, 157);
             this.Controls.Add(this.Serverbtn);
             this.Controls.Add(this.Puertotxt);
             this.Controls.Add(this.IPtxt);
@@ -94,8 +94,8 @@ namespace TRUECliente
             this.Controls.Add(this.Iplbl);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
-            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
