@@ -1,7 +1,7 @@
 ﻿
 namespace TRUECliente
 {
-    partial class Form2
+    partial class Settings
     {
         /// <summary>
         /// Required designer variable.
@@ -29,89 +29,73 @@ namespace TRUECliente
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form2));
-            this.Resultlbl = new System.Windows.Forms.Label();
-            this.Apagarbtn = new System.Windows.Forms.Button();
-            this.Todobtn = new System.Windows.Forms.Button();
-            this.Fechabtn = new System.Windows.Forms.Button();
-            this.Horabtn = new System.Windows.Forms.Button();
-            this.Settingbtn = new System.Windows.Forms.Button();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Settings));
+            this.Serverbtn = new System.Windows.Forms.Button();
+            this.Puertotxt = new System.Windows.Forms.TextBox();
+            this.IPtxt = new System.Windows.Forms.TextBox();
+            this.Puertolbl = new System.Windows.Forms.Label();
+            this.Iplbl = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // Resultlbl
+            // Serverbtn
             // 
-            this.Resultlbl.AutoSize = true;
-            this.Resultlbl.Location = new System.Drawing.Point(7, 47);
-            this.Resultlbl.Name = "Resultlbl";
-            this.Resultlbl.Size = new System.Drawing.Size(73, 13);
-            this.Resultlbl.TabIndex = 9;
-            this.Resultlbl.Text = "RESULTADO";
+            this.Serverbtn.DialogResult = System.Windows.Forms.DialogResult.OK;
+            this.Serverbtn.Location = new System.Drawing.Point(23, 99);
+            this.Serverbtn.Name = "Serverbtn";
+            this.Serverbtn.Size = new System.Drawing.Size(75, 23);
+            this.Serverbtn.TabIndex = 15;
+            this.Serverbtn.Text = "Apply";
+            this.Serverbtn.UseVisualStyleBackColor = true;
+            this.Serverbtn.Click += new System.EventHandler(this.Serverbtn_Click);
             // 
-            // Apagarbtn
+            // Puertotxt
             // 
-            this.Apagarbtn.Location = new System.Drawing.Point(133, 95);
-            this.Apagarbtn.Name = "Apagarbtn";
-            this.Apagarbtn.Size = new System.Drawing.Size(75, 23);
-            this.Apagarbtn.TabIndex = 8;
-            this.Apagarbtn.Text = "APAGAR";
-            this.Apagarbtn.UseVisualStyleBackColor = true;
-            this.Apagarbtn.Click += new System.EventHandler(this.Apagarbtn_Click);
+            this.Puertotxt.Location = new System.Drawing.Point(12, 73);
+            this.Puertotxt.Name = "Puertotxt";
+            this.Puertotxt.Size = new System.Drawing.Size(100, 20);
+            this.Puertotxt.TabIndex = 14;
+            this.Puertotxt.Text = "10823";
             // 
-            // Todobtn
+            // IPtxt
             // 
-            this.Todobtn.Location = new System.Drawing.Point(133, 66);
-            this.Todobtn.Name = "Todobtn";
-            this.Todobtn.Size = new System.Drawing.Size(75, 23);
-            this.Todobtn.TabIndex = 7;
-            this.Todobtn.Text = "TODO";
-            this.Todobtn.UseVisualStyleBackColor = true;
-            this.Todobtn.Click += new System.EventHandler(this.Todobtn_Click);
+            this.IPtxt.Location = new System.Drawing.Point(12, 24);
+            this.IPtxt.Name = "IPtxt";
+            this.IPtxt.Size = new System.Drawing.Size(100, 20);
+            this.IPtxt.TabIndex = 13;
+            this.IPtxt.Text = "192.168.22.31";
             // 
-            // Fechabtn
+            // Puertolbl
             // 
-            this.Fechabtn.Location = new System.Drawing.Point(133, 37);
-            this.Fechabtn.Name = "Fechabtn";
-            this.Fechabtn.Size = new System.Drawing.Size(75, 23);
-            this.Fechabtn.TabIndex = 6;
-            this.Fechabtn.Text = "FECHA";
-            this.Fechabtn.UseVisualStyleBackColor = true;
-            this.Fechabtn.Click += new System.EventHandler(this.Fechabtn_Click);
+            this.Puertolbl.AutoSize = true;
+            this.Puertolbl.Location = new System.Drawing.Point(9, 56);
+            this.Puertolbl.Name = "Puertolbl";
+            this.Puertolbl.Size = new System.Drawing.Size(38, 13);
+            this.Puertolbl.TabIndex = 12;
+            this.Puertolbl.Text = "Puerto";
             // 
-            // Horabtn
+            // Iplbl
             // 
-            this.Horabtn.Location = new System.Drawing.Point(133, 8);
-            this.Horabtn.Name = "Horabtn";
-            this.Horabtn.Size = new System.Drawing.Size(75, 23);
-            this.Horabtn.TabIndex = 5;
-            this.Horabtn.Text = "HORA";
-            this.Horabtn.UseVisualStyleBackColor = true;
-            this.Horabtn.Click += new System.EventHandler(this.Horabtn_Click);
+            this.Iplbl.AutoSize = true;
+            this.Iplbl.Location = new System.Drawing.Point(9, 8);
+            this.Iplbl.Name = "Iplbl";
+            this.Iplbl.Size = new System.Drawing.Size(17, 13);
+            this.Iplbl.TabIndex = 11;
+            this.Iplbl.Text = "IP";
             // 
-            // Settingbtn
-            // 
-            this.Settingbtn.Location = new System.Drawing.Point(52, 118);
-            this.Settingbtn.Name = "Settingbtn";
-            this.Settingbtn.Size = new System.Drawing.Size(75, 23);
-            this.Settingbtn.TabIndex = 10;
-            this.Settingbtn.Text = "Settings";
-            this.Settingbtn.UseVisualStyleBackColor = true;
-            this.Settingbtn.Click += new System.EventHandler(this.Settingbtn_Click);
-            // 
-            // Form2
+            // Settings
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(214, 156);
-            this.Controls.Add(this.Settingbtn);
-            this.Controls.Add(this.Resultlbl);
-            this.Controls.Add(this.Apagarbtn);
-            this.Controls.Add(this.Todobtn);
-            this.Controls.Add(this.Fechabtn);
-            this.Controls.Add(this.Horabtn);
+            this.ClientSize = new System.Drawing.Size(261, 225);
+            this.Controls.Add(this.Serverbtn);
+            this.Controls.Add(this.Puertotxt);
+            this.Controls.Add(this.IPtxt);
+            this.Controls.Add(this.Puertolbl);
+            this.Controls.Add(this.Iplbl);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "Form2";
+            this.Name = "Settings";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form2";
+            this.Text = "Settings";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -119,11 +103,10 @@ namespace TRUECliente
 
         #endregion
 
-        private System.Windows.Forms.Label Resultlbl;
-        private System.Windows.Forms.Button Apagarbtn;
-        private System.Windows.Forms.Button Todobtn;
-        private System.Windows.Forms.Button Fechabtn;
-        private System.Windows.Forms.Button Horabtn;
-        private System.Windows.Forms.Button Settingbtn;
+        private System.Windows.Forms.Button Serverbtn;
+        private System.Windows.Forms.Label Puertolbl;
+        private System.Windows.Forms.Label Iplbl;
+        public System.Windows.Forms.TextBox Puertotxt;
+        public System.Windows.Forms.TextBox IPtxt;
     }
 }
