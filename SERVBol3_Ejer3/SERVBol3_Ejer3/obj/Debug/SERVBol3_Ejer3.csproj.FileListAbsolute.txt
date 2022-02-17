@@ -1,0 +1,7 @@
+C:\Users\OscarFari\source\repos\SERVBol3_Ejer3\SERVBol3_Ejer3\bin\Debug\SERVBol3_Ejer3.exe.config
+C:\Users\OscarFari\source\repos\SERVBol3_Ejer3\SERVBol3_Ejer3\bin\Debug\SERVBol3_Ejer3.exe
+C:\Users\OscarFari\source\repos\SERVBol3_Ejer3\SERVBol3_Ejer3\bin\Debug\SERVBol3_Ejer3.pdb
+C:\Users\OscarFari\source\repos\SERVBol3_Ejer3\SERVBol3_Ejer3\obj\Debug\SERVBol3_Ejer3.csproj.AssemblyReference.cache
+C:\Users\OscarFari\source\repos\SERVBol3_Ejer3\SERVBol3_Ejer3\obj\Debug\SERVBol3_Ejer3.csproj.CoreCompileInputs.cache
+C:\Users\OscarFari\source\repos\SERVBol3_Ejer3\SERVBol3_Ejer3\obj\Debug\SERVBol3_Ejer3.exe
+C:\Users\OscarFari\source\repos\SERVBol3_Ejer3\SERVBol3_Ejer3\obj\Debug\SERVBol3_Ejer3.pdb
