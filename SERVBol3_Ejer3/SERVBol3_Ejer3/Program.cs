@@ -45,6 +45,12 @@ namespace SERVBol3_Ejer3
                 clientecitos.Add(cliente);
 
                 cliente.Mensaje = sw;
+                
+                foreach (Cliente conectado in clientecitos)
+                {
+                    conectado.Mensaje.WriteLine("{0}@{1};{2} se ha conectado",userName,ieCliente.Address,ieCliente.Port);
+                    conectado.Mensaje.Flush();
+                }
 
                 while (!apagar)
                 {
