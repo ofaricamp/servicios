@@ -1,0 +1,7 @@
+C:\Users\Oscar\source\repos\yy\yy\bin\Debug\yy.exe.config
+C:\Users\Oscar\source\repos\yy\yy\bin\Debug\yy.exe
+C:\Users\Oscar\source\repos\yy\yy\bin\Debug\yy.pdb
+C:\Users\Oscar\source\repos\yy\yy\obj\Debug\yy.csprojAssemblyReference.cache
+C:\Users\Oscar\source\repos\yy\yy\obj\Debug\yy.csproj.CoreCompileInputs.cache
+C:\Users\Oscar\source\repos\yy\yy\obj\Debug\yy.exe
+C:\Users\Oscar\source\repos\yy\yy\obj\Debug\yy.pdb
